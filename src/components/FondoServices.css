@@ -1,0 +1,105 @@
+@import url(FondoEmpresa.scss);
+@import url(FondoContact.scss);
+.container-title{
+  position: absolute;
+  width: 56%;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/*title pages*/
+
+.title-empresa{
+
+  color: white;
+}
+.title-service{
+
+  color: black;
+}
+.title-contact{
+  color: white;
+}
+/*parraf page*/
+
+.texto-services{
+color: black;
+}
+.texto-empresa{
+  color: white;
+}
+.vacio{
+  background-color: aqua;
+  height:60px;
+}
+.slick-next:before {
+  content: '';
+}
+.slick-prev:before {
+  content: '';
+}
+
+
+/*Slider services*/
+.caja{
+  width: 100%;
+  margin: auto;
+  border: solid 8px red;
+  overflow: hidden;
+  box-sizing: border-box;
+
+}
+.imgServi{
+  background-color: aquamarine;
+  border: solid 5px rebeccapurple;
+  width: 100%;
+  margin: auto;
+  
+}
+.imgServi img{
+  width: 80%;  
+  background-color: red;
+  
+}
+.titleServi{
+  background-color: aqua;
+  margin-top: 100px;
+  width: 72%;
+  margin: auto;
+}
+.titleServi h2{
+  background-color: blueviolet;
+
+
+}
+.titleServi h4{
+  background-color: red;
+
+  
+}
+.slick-dots {
+  position: relative;
+ 
+  bottom: 20%;
+  background-color: brown;
+  width: 72%;
+  margin: auto;
+
+}
+    @media screen and (max-width:550px) {
+
+      .img-baner .d-block{
+      height: 600px;
+      object-position:center;
+      -o-object-position: 0rem;
+      object-fit: cover;
+       }
+       .title-contact{
+        color: transparent;
+       }
+  }
+  
+

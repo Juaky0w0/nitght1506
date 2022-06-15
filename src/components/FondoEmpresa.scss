@@ -1,0 +1,91 @@
+/*header*/
+.container-somos{
+margin: auto;
+width: 70%;
+margin-top: 60px;
+}
+.container-somos p{
+    margin-top: 30px;
+    line-height: 18px;
+    font-weight: 100;
+    padding-bottom: 40px;
+}
+
+
+/*container empresas*/
+.container-empresas{
+    margin-bottom: 3%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container-context{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin:auto;
+    padding-bottom: 20px;
+}
+.history{
+    width: 20%;
+    padding: 10px;
+}
+.history p{
+    font-size: 15px;   
+    color:#495057;
+}
+.history h2{
+font-size: 20px;
+margin-top: -15px;
+font-size: 1.8rem;
+}
+.context{
+    width: 80%;
+    overflow: hidden;   
+    color:#495057;
+}
+.context p{
+    padding: 10px;
+}
+.imgOne{
+    border-radius: 35px;
+    margin: auto;
+    width: 70%;
+}
+@media screen and (max-width:1009px) {
+    .history{
+        width: 100%;
+        padding: 10px;
+    }
+    .context{
+        width: 100%;
+        overflow: hidden;  
+    }
+    .container-context{
+
+        width: 80%;
+    }
+    .imgOne{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 555px) {
+
+    .imgOne{
+        width: 90%;
+    }
+    .container-somos{
+        width: 80%;
+        }
+        .container-context{  
+            width: 90%;    
+        }
+}
+@media screen and (max-width: 450px) {
+    .imgOne{
+        width: 100%;
+    }
+    .context p{
+        line-height: 20px;
+    }
+}
